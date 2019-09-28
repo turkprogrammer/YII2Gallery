@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/site.css',
         'css/jquery.fancybox.css',
+        'css/sticky-footer.css',
     ];
     public $js = [
         'js/jquery.fancybox.min.js',

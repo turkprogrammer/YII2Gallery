@@ -78,7 +78,7 @@ class SiteController extends Controller {
 
 // получает строки для текущей запрошенной странице
         $files = $provider->getModels();  
-       
+ 
       //dd($files);
         return $this->render('index', compact('files','provider'));
     }
